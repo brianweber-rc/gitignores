@@ -1,0 +1,61 @@
+# Scala specific
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# SBT specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# VSCode specific
+.vscode/
+.metals/
+.bloop/
+.bsp/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+.worksheet/
+
+# Mac OS specific
+.DS_Store
+
+# Spark specific
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Local configuration file (e.g., application.conf)
+/conf/application.conf
+
+# Logs
+logs/
+*.log
+log/
+
+# Temporary files
+temp/
+tmp/
